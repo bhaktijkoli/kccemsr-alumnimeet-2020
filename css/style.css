@@ -9,7 +9,7 @@
 
 header{
     height: 90vh;
-    background-image: linear-gradient(to right, rgba(28, 174, 219, 0.363), rgba(0,104,255,0.7651435574229692)),url('../images/header.jpg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.568)),url('../images/header1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,7 +62,9 @@ header{
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.473);
     padding: 30px;
     margin-top: -50px;
-    background-color: white;
+    background-image: linear-gradient(to right,rgba(219, 219, 219, 0.815),rgba(255, 255, 255, 0.527)),url('../images/undraw_festivities_tvvj.png');
+    background-position: center;
+    background-size: cover;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -109,6 +111,9 @@ h1 {
   color: #ffffff;
   font-weight: 100;
   font-size: 2.4em;
+}
+.intro-section-text-main{
+    color: black;
 }
 #timeline-section {
   padding-top: 100px;
@@ -189,10 +194,14 @@ h1 {
   top: 5px;
 }
 
-.countdown-section{
-    height:70vh;
-    padding-top: 60px;
-    margin-bottom: 60px;
+.countdown-text{
+    background-color: #3272c5;
+    padding: 2px 4px;
+    font-size: 13px;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    letter-spacing: 4px;
 }
 
 #clockdiv,
@@ -209,15 +218,15 @@ h1 {
 
 #clockdiv > div,
 #clockdiv1 > div{
-	padding: 10px;
+padding: 10px;
 	border-radius: 3px;
-	background: rgba(0, 114, 245, 0.644);
+	background: rgba(33, 34, 36, 0.89);
 	display: inline-block;
 }
 
 #clockdiv div > span,
 #clockdiv1 div > span{
-	padding: 15px;
+	padding: 10px;
 	border-radius: 3px;
 	background: #2C2F2E;
 	display: inline-block;
