@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Oswald:400,300,700);
+@import url('https://fonts.googleapis.com/css?family=Vollkorn&display=swap');
 
 *{
     margin: 0px;
@@ -78,7 +79,7 @@ header{
 .fa-instagram{
     color: rgb(212, 33, 174);
 }
-hr{
+.index-hr{
     margin-left: 45%;
     border: 1px solid rgba(0, 0, 0, 0.616);
 }
@@ -140,6 +141,9 @@ h1 {
     .timeline {max-width: 80%;}
 }
 
+
+
+
 .timeline h1,
 .timeline h2,
 .timeline h3 {
@@ -175,7 +179,7 @@ h1 {
   min-width: 120px;
 }
 .timeline .event:after {
-  box-shadow: 0 0 0 4px #4298c3;
+  box-shadow: 0 0 0 4px #3272c5;
   left: -57.85px;
   background: #313534;
   border-radius: 50%;
@@ -185,17 +189,44 @@ h1 {
   top: 5px;
 }
 
-.lightbox-section{
-    padding-top: 80px;
-    padding-bottom: 80px;
+.countdown-section{
+    height:70vh;
+    padding-top: 60px;
+    margin-bottom: 60px;
 }
 
-.lightbox-row{
-    margin: 15px;
+#clockdiv,
+#clockdiv1{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+    font-size: 30px;
+    padding: 40px;
 }
 
-.img-fluid{
-    height: 225px;
+
+#clockdiv > div,
+#clockdiv1 > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: rgba(0, 114, 245, 0.644);
+	display: inline-block;
+}
+
+#clockdiv div > span,
+#clockdiv1 div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #2C2F2E;
+	display: inline-block;
+}
+
+.smalltext,
+.smalltext1{
+	padding-top: 5px;
+	font-size: 16px;
 }
 
 
@@ -226,7 +257,7 @@ h1 {
 
 .header-section-register{
     height: 60vh;
-    background-image: linear-gradient(to right, rgba(28, 174, 219, 0.568), rgba(0, 102, 255, 0.548)),url('../images/register.jpg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.514)),url('../images/register.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -235,6 +266,7 @@ h1 {
     position: relative;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
     color: rgb(255, 255, 255);
+    z-index: -1;
     
 }
 
@@ -243,6 +275,17 @@ h1 {
 
 }
 
+.form{
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.363);
+    padding: 50px;
+    margin-top: -150px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.form-row{
+    margin: 25px 0px;
+}
 
 @media screen and (max-width: 2560px) {
 .header-register-text-section{
@@ -272,4 +315,9 @@ h1 {
 .form-section{
     padding-top: 80px;
     padding-bottom: 80px;
+    font-family: 'Vollkorn', serif;
+}
+
+.payment-method{
+    padding: 20px;
 }
