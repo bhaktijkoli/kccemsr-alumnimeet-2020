@@ -185,7 +185,18 @@ h1 {
   top: 5px;
 }
 
+.lightbox-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
+.lightbox-row{
+    margin: 15px;
+}
+
+.img-fluid{
+    height: 225px;
+}
 
 
 /* Contact Us */
@@ -195,7 +206,11 @@ h1 {
     padding-top: 100px;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 5px;
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.616),rgba(255, 255, 255, 0.445)),url('../images/contact_us.png');
+    background-size: cover;
+    background-position: center;
 }
+
 
 .contact-text-main{
     font-weight: 600;
