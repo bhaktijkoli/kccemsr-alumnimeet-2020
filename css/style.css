@@ -299,6 +299,14 @@ padding: 10px;
         display: block;
     }
 
+    .timeline-time{
+        visibility: visible;
+    }
+}
+@media screen and (min-width: 970px){
+    .timeline-time{
+        visibility: hidden;
+    }
 }
 
 
