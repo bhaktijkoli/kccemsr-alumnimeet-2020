@@ -28,7 +28,7 @@
 
 header{
     height: 90vh;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.568)),url('../images/header1.jpg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.568)),url('../images/header1.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,7 +94,7 @@ header{
 
 @media screen and (max-width: 970px) {
 
-    .header-text{font-size: medium;}
+    .header-text{font-size: large;}
     .second-counter{
         visibility: hidden;
     }
@@ -291,7 +291,15 @@ padding: 10px;
     background-position: center;
     word-wrap: break-word;
 }
+@media screen and (max-width: 970px) {
+    .contact-text-sub{
+        font-size: large;
+    }
+    .contact-number{
+        display: block;
+    }
 
+}
 
 
 .contact-text-main{
