@@ -92,6 +92,22 @@ header{
     font-family: 'Oswald', sans-serif;
 }
 
+@media screen and (max-width: 970px) {
+
+    .header-text{font-size: medium;}
+    .second-counter{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .second-counter{
+        visibility: hidden;
+    }
+}
+
+
+
 .nav-item{
     padding: 10px;
     font-size: large;
